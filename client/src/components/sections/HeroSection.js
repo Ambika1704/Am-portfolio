@@ -12,13 +12,13 @@ const HeroSection = () => {
 
           <div className="hero-buttons">
            <a
-            href="/Ambika Resume.pdf"
-            className="resume-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-           >
-             View Resume
-          </a>
+              href={`${process.env.PUBLIC_URL}/Ambika Resume.pdf`}
+              className="resume-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+               View Resume
+            </a>
           </div>
         </div>
       </div>
