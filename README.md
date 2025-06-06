@@ -109,10 +109,4 @@ Am-portfolio/
 └── README.md
 ```
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 **Made with ❤️ by Ambika B Sajjan**
