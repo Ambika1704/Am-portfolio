@@ -123,15 +123,17 @@ body {
   }
   .theme-toggle {
     margin-left: 1rem;
+    width: 20px;height: 3px;
   }
 
   .nav-toggle span {
-  width: 25px;
+  width: 20px;
   height: 3px;
   background: #fff; /* Change this from #2c3e50 to #fff */
   transition: 0.3s;
 }
 }
+
 
 /* Hero Section */
 .hero {
@@ -142,8 +144,8 @@ body {
   background:
     repeating-linear-gradient(
       135deg,
-      rgba(255, 255, 255, 0) 0px,
-      rgba(255, 255, 255, 0.033) 2px,
+      rgba(255, 255, 255, 0.08) 0px,
+      rgba(255, 255, 255, 0.08) 2px,
       transparent 2px,
       transparent 20px
     ),
@@ -152,7 +154,6 @@ body {
   text-align: center;
   padding-top: 70px;
 }
-
 .hero-content h1 {
   font-size: 5.8rem;
   margin-bottom: 1rem;
@@ -191,14 +192,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2.2rem;
+  .container .hero-content h1 {
+    font-size: 2.9rem;
   }
   .hero-content .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
   .hero-content .description {
-    font-size: 1rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -240,19 +241,27 @@ body {
   background: #fff;
   box-shadow: 0 8px 32px 0 rgba(60,60,60,0.10);
   font-size: 1.2rem;
-  color: #7f8c8d;
+  color: #b80b4e;
   line-height: 1.6;
+}
+
+.section-title {
+  color: #000000; 
+}
+
+.section-subtitle {
+  color: black;
 }
 
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr;
     font-size: 14px;
-    padding: 50px;
+    padding: 15px;
   }
 
   .hero-content h1 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
   }
 
   .hero-buttons {
@@ -261,7 +270,12 @@ body {
   }
 
   .section-subtitle {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .about-card {
+    font-size: 14px;
   }
 }
 
@@ -296,6 +310,25 @@ body {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .skills-list {
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  .skill-category {
+    font-size: 0.95rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+
 
 /* Education & Certificates */
 .timeline-item {
@@ -334,12 +367,30 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #2c3e50;
+  color: #010102;
 }
 
 .timeline-meta {
   color: #7f8c8d;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .timeline-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+  .timeline-title {
+    font-size: 1rem;
+  }
+  .timeline-item {
+    padding: 1rem 0.5rem;
+    gap: 0.5rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
 }
 
 /* Contact Section */
@@ -421,3 +472,25 @@ body {
 .contact .social-link svg {
   display: block;
 }
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 2.5rem 1.5rem;
+  }
+  .contact form {
+    padding: 1.2rem 0.5rem;
+  }
+  .contact button[type="submit"] {
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .contact .social-link {
+    width: 36px;
+    height: 36px;
+    margin-right: 0.7rem;
+  }
+  .contact .container {
+    font-size: 1.2rem;
+  }
+}
+
