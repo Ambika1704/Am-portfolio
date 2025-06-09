@@ -36,7 +36,8 @@ const ContactSection = () => {
             background: "#fff",
             borderRadius: "2rem",
             padding: "2.5rem 2rem",
-            // boxShadow removed
+            // boxShadow 
+            boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
             maxWidth: 900,
             margin: "0 auto",
           }}
@@ -147,14 +148,12 @@ const ContactSection = () => {
           <div style={{ textAlign: "center" }}>
             <button
               type="submit"
-              
             >
               Send
             </button>
           </div>
         </form>
                <div style={{ display: "flex", justifyContent: "center", gap: "2.5rem", marginTop: "2.5rem" }}>
-          {/* LinkedIn */}
           <a
             href="https://linkedin.com/in/ambika-b-sajjan/"
             target="_blank"
@@ -177,7 +176,6 @@ const ContactSection = () => {
               </g>
             </svg>
           </a>
-          {/* GitHub */}
           <a
             href="https://github.com/Ambika1704"
             target="_blank"
