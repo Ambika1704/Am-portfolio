@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="about-grid">
           <div className="grid">
             <div className="about-card">
-              <p style={{ color: "#7f8c8d", lineHeight: "1.6" }}>
+              <p style={{ color: "black", lineHeight: "1.6" }}>
                 I'm Ambika, a second-year Bachelor of Computer Applications (BCA) student at Jain University,
                 with a background in biology and a growing passion for technology. My journey from life sciences
                 to computer science has been driven by a strong interest in how machine learning and data can create
@@ -17,7 +17,7 @@ const AboutSection = () => {
             </div>
 
             <div className="about-card">
-              <p style={{ color: "#7f8c8d", lineHeight: "1.6" }}>
+              <p style={{ color: "black", lineHeight: "1.6" }}>
                 I’ve completed certifications in C, Python, and Machine Learning, and I’m continuously working 
                 to strengthen my skills in Artificial Intelligence and Data Analytics. I love exploring how intelligent 
                 systems learn from data and improve over time—this blend of logic and learning fascinates me.
