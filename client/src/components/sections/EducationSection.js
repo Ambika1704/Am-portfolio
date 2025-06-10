@@ -20,21 +20,63 @@ const EducationSection = () => {
     <section id="education" className="section about">
       <div className="container">
         <h2 className="section-title">Education</h2>
-        <p className="section-subtitle">My academic background and continuous learning journey</p>
+        <p className="section-subtitle">
+          My academic background and continuous learning journey
+        </p>
 
         <div className="grid">
           {education.map((edu, index) => (
             <div key={index} className="card">
               <div className="timeline-item">
-                <div className="timeline-icon">🎓</div>
+                <div className="timeline-icon">
+                  {edu.school === "Jain University" ? (
+                      <img
+                        src="client\src\components\images\jain_logo.jpeg"
+                        alt="Jain University logo"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          background: "#fff",
+                          objectFit: "cover",
+                          padding: "6px",
+                          boxSizing: "border-box"
+                        }}
+                      />
+                  ) : edu.school === "St. Claret PU College" ? (
+                      <img
+                        src="client\src\components\images\pu_logo.jpg"
+                        alt="St. Claret PU College logo"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          background: "#fff",
+                          objectFit: "cover",
+                          padding: "6px",
+                          boxSizing: "border-box"
+                        }}
+                      />
+                  ) : (
+                    "🎓"
+                  )}
+                </div>
                 <div className="timeline-content">
                   <h3 className="timeline-title">{edu.degree}</h3>
                   <div className="timeline-meta">
                     <strong>{edu.school}</strong> • {edu.period} • {edu.gpa}
                   </div>
                   <div>
-                    <h4 style={{ marginBottom: "0.5rem", color: "#2c3e50" }}>Skills</h4>
-                    <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+                    <h4
+                      style={{ marginBottom: "0.5rem", color: "#2c3e50" }}
+                    >
+                      Skills
+                    </h4>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "0.5rem",
+                      }}
+                    >
                       {edu.skills.map((skill, i) => (
                         <span key={i} className="badge">
                           {skill}
@@ -49,7 +91,7 @@ const EducationSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default EducationSection
+export default EducationSection;

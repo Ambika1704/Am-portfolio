@@ -1,4 +1,5 @@
 
+
 const HeroSection = () => {
   return (
     <section id="home" className="hero">

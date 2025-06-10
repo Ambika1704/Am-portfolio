@@ -29,14 +29,6 @@ This site showcases my background, skills, projects, certifications, and contact
 - **react-scripts:** React app build and development
 - **gh-pages:** For GitHub Pages deployment
 
-## 📦 Installation
-
-```sh
-git clone https://github.com/Ambika1704/Am-portfolio.git
-cd Am-portfolio/client
-npm install
-npm start
-```
 
 ## ▶️ How to Run This Project
 
@@ -109,4 +101,6 @@ Am-portfolio/
 └── README.md
 ```
 
-**Made with ❤️ by Ambika B Sajjan**
+
+
+

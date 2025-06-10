@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
-import ThemeToggle from "./sections/ThemeToggle"; 
+
 
 
 const Navigation = () => {
@@ -67,7 +67,6 @@ const Navigation = () => {
           <span></span>
           <span></span>
         </div>
-         <ThemeToggle />
       </div>
     </nav>
   )
