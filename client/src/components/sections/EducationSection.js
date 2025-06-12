@@ -1,3 +1,5 @@
+import React from 'react';
+
 const EducationSection = () => {
   const education = [
     {
@@ -31,7 +33,7 @@ const EducationSection = () => {
                 <div className="timeline-icon">
                   {edu.school === "Jain University" ? (
                       <img
-                        src="client\src\components\images\jain_logo.jpeg"
+                        src={process.env.PUBLIC_URL + '/images/jain_logo.jpeg'}
                         alt="Jain University logo"
                         style={{
                           width: "60px",
@@ -44,7 +46,7 @@ const EducationSection = () => {
                       />
                   ) : edu.school === "St. Claret PU College" ? (
                       <img
-                        src="client\src\components\images\pu_logo.jpg"
+                        src={process.env.PUBLIC_URL + '/images/pu_logo.jpg'}
                         alt="St. Claret PU College logo"
                         style={{
                           width: "60px",
