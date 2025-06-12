@@ -1,0 +1,22 @@
+{
+  "name": "Ambika B Sajjan - Portfolio",
+  "short_name": "Ambika Portfolio",
+  "description": "Portfolio of Ambika B Sajjan, a BCA student at Jain University passionate about technology and machine learning",
+  "icons": [
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#050728",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait"
+} 
