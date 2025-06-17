@@ -29,7 +29,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(4, 3, 29, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #e1e8ed;
   z-index: 1000;
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-logo {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #ffffff;
   font-family:  cursive;
@@ -68,6 +68,7 @@ body {
   color: #ffffff;
   font-weight: 500;
   overflow: hidden;
+  font-size: 20px;
 }
 
 .nav-item::after {
@@ -113,23 +114,7 @@ body {
   }
 }
 
-@media (max-width: 992px) {
-  .container {
-    max-width: 720px;
-  }
-  
-  .hero-content h1 {
-    font-size: 4rem;
-  }
-  
-  .hero-content .subtitle {
-    font-size: 2rem;
-  }
-  
-  .hero-content .description {
-    font-size: 1.8rem;
-  }
-}
+
 
 @media (max-width: 768px) {
   .container {
@@ -157,19 +142,6 @@ body {
     display: flex;
   }
 
-  .hero-content h1 {
-    font-size: 3rem;
-  }
-  
-  .hero-content .subtitle {
-    font-size: 1.5rem;
-  }
-  
-  .hero-content .description {
-    font-size: 1.2rem;
-    padding: 0 1rem;
-  }
-
   .grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -187,18 +159,6 @@ body {
 @media (max-width: 576px) {
   .container {
     padding: 0 0.75rem;
-  }
-  
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero-content .subtitle {
-    font-size: 1.2rem;
-  }
-  
-  .hero-content .description {
-    font-size: 1rem;
   }
 
   .section-title {
@@ -226,22 +186,19 @@ body {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background:
-    repeating-linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.08) 0px,
-      rgba(255, 255, 255, 0.08) 2px,
-      transparent 2px,
-      transparent 20px
-    ),
-    linear-gradient(135deg, #050728 0%, #031629 100%);
+  min-height: 95vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
   padding: 70px 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .hero-content h1 {
   font-size: 5.8rem;
@@ -341,7 +298,15 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+  }
+
+  .hero-content .subtitle {
+    font-size: 2.3rem;
+  }
+
+  .hero-content .description {
+    font-size: 1.5rem;
   }
 
   .hero-buttons {
@@ -352,6 +317,10 @@ body {
   .section-subtitle {
     font-size: 16px;
     margin-bottom: 0px;
+  }
+
+  .section-title h2 {
+    font-size: 2.8rem;
   }
 
   .about-card {
@@ -373,7 +342,7 @@ body {
 .skill-icon {
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #e0e0e0;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -390,6 +359,8 @@ body {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+
 
 @media (max-width: 600px) {
   .skill-icon {
@@ -418,17 +389,6 @@ body {
   background: var(--card-bg);
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-}
-
-.timeline-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  flex-shrink: 0;
 }
 
 .timeline-content {
@@ -531,6 +491,7 @@ body {
   .contact {
     padding: 2.5rem 1.5rem;
   }
+  
   .contact form {
     padding: 1.2rem 0.5rem;
   }
@@ -565,4 +526,3 @@ body {
   margin: 0 auto;
   padding: 0 2rem;
 }
-

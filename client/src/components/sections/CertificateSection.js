@@ -111,7 +111,6 @@ const CertificatesSection = () => {
               onClick={() => openModal(cat)}
             >
               <div className="timeline-item">
-                <div className="timeline-icon"></div>
                 <div className="timeline-content">
                   <h3 className="timeline-title">{cat.category}</h3>
                 </div>
