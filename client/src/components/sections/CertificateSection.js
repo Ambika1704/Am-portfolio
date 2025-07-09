@@ -14,7 +14,7 @@ const certificateCategories = [
         url: "https://www.coursera.org/account/accomplishments/verify/FPLWABTSIQ43?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
         skills: ["Data Management", "Data Cleaning", "Data Manipulation", "Data Import and Export"],
       },
-      // Add more ML certificates here
+
     ],
   },
   {
@@ -45,7 +45,7 @@ const certificateCategories = [
         skills: ["Spreadsheet Software", "Data Analysis", "Time Series Analysis and Forecasting", "Descriptive Statistics", "Probability & Statistics", "Tableau Softwares"],
       }
 
-      // Add more Data Viz certificates here
+
     ],
   },
   {
@@ -69,7 +69,7 @@ const certificateCategories = [
         url: "https://coursera.org/share/ffa655216c123e328eab21c2733a3e5d",
         skills: ["Development Environment", "Computational Thinking", "Scripting", "Algorithms", "Computer Programming", "Programming Principles", "Debugging", "Integrated Development Environments"],
       },
-      // Add more Web Dev certificates here
+
     ],
   },
   {
@@ -85,7 +85,7 @@ const certificateCategories = [
         url: "https://coursera.org/share/4ce81a9c775e2b395de7b881f9e8d9d6",
         skills: ["File Transfer Protocol (FTP)", "Intrusion Detection and Prevention", "Network Security", "Network Routing", "System Configuration", "General Networking", "Dynamic Host Configuration Protocol (DHCP)"],
       },
-      // Add more Cloud/DB certificates here
+
     ],
   },
 ];
@@ -119,7 +119,7 @@ const CertificatesSection = () => {
           ))}
         </div>
 
-        {/* Modal */}
+        
         {selectedCategory && (
           <div
             className="modal"
