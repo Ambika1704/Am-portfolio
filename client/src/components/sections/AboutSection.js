@@ -11,16 +11,16 @@ const AboutSection = () => {
               <p style={{ color: "black", lineHeight: "1.6" }}>
                 I'm Ambika, a second-year Bachelor of Computer Applications (BCA) student at Jain University,
                 with a background in biology and a growing passion for technology. My journey from life sciences
-                to computer science has been driven by a strong interest in how machine learning and data can create
-                impactful, real-world solutions.
+                to computer science has been driven by a strong interest in how web technologies can create
+                engaging and user-friendly digital experiences.
               </p>
             </div>
 
             <div className="about-card">
               <p style={{ color: "black", lineHeight: "1.6" }}>
-                I’ve completed certifications in C, Python, and Machine Learning, and I’m continuously working 
-                to strengthen my skills in Artificial Intelligence and Data Analytics. I love exploring how intelligent 
-                systems learn from data and improve over time—this blend of logic and learning fascinates me.
+                I’ve completed certifications in C, Python, and Web Development, and I’m continuously working 
+                to strengthen my skills in front-end technologies like HTML, CSS, JavaScript, React, and UI/UX design. 
+                I love exploring how design and functionality come together to build interactive, responsive websites.
               </p>
             </div>
 
@@ -28,7 +28,7 @@ const AboutSection = () => {
               <p style={{ color: "black", lineHeight: "1.6" }}>
                 While I’m still learning and experimenting, I believe in consistent growth, staying curious, 
                 and using technology to make a difference. When I’m not studying or coding, I enjoy reading non-fiction, 
-                reflecting on self-improvement, and dreaming big about where my journey in tech will take me.
+                reflecting on self-improvement, and dreaming big about where my journey in web development will take me.
               </p>
             </div>
           </div>

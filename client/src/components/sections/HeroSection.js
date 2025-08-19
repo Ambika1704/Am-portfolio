@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div
   className="hero"
   style={{
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/background_image.jpeg'})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/background_image.png'})`,
   }}
 >
       <div className="container">
@@ -14,7 +14,7 @@ const HeroSection = () => {
           <h1>Ambika B Sajjan</h1>
           <p className="subtitle">BCA Student</p>
           <p className="description">
-            From Biology to Binary Exploring the Intersection of Life Sciences and Technology
+           Aspiring front-end developer with a strong interest in creating responsive and user-centered web applications.
           </p>
         </div>
       </div>
