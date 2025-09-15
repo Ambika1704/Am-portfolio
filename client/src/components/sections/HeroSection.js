@@ -14,7 +14,7 @@ const HeroSection = () => {
           <h1>Ambika B Sajjan</h1>
           <p className="subtitle">BCA Student</p>
           <p className="description">
-           Aspiring front-end developer with a strong interest in creating responsive and user-centered web applications.
+           Aspiring Data Analyst with a strong interest in transforming data into meaningful insights and supporting data-driven decision-making.
           </p>
         </div>
       </div>
